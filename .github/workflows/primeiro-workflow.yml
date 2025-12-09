@@ -18,7 +18,7 @@ jobs:
         node-version: '16'
 
     - name: Build do Docker
-      uses: docker build .
+      run: docker build .
 
     - name: Aplicação
       run: echo "Aplicação construída com sucesso!"
