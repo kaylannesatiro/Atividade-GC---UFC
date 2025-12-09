@@ -22,4 +22,6 @@ jobs:
 
     - name: Aplicação
       run: echo "Aplicação construída com sucesso!"
+
+    - name: Listar Arquivos
       run: ls -la
